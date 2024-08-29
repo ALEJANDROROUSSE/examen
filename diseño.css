@@ -1,0 +1,52 @@
+body {
+  background-color: #cdebf5; /* celeste claro */
+  font-family: Arial, sans-serif; /* fuente Arial */
+  text-align: center; /* centrar texto */
+}
+
+form {
+  width: 70%; /* ancho del formulario (aumentado a 70%) */
+  margin: 40px auto; /* centrar formulario */
+  padding: 40px; /* espacio entre el formulario y el borde (aumentado a 40px) */
+  border: 1px solid #ccc; /* borde gris claro */
+  border-radius: 10px; /* esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra */
+}
+
+label {
+  display: block; /* etiquetas en bloque */
+  margin-bottom: 10px; /* espacio entre etiquetas */
+}
+
+input[type="number"] {
+  width: 80%; /* ancho de los inputs (aumentado a 80%) */
+  height: 40px; /* alto de los inputs (aumentado a 40px) */
+  margin-bottom: 20px; /* espacio entre inputs */
+  padding: 10px; /* espacio entre el texto y el borde */
+  border: 1px solid #ccc; /* borde gris claro */
+  border-radius: 5px; /* esquinas redondeadas */
+  font-size: 18px; /* tamaño de la fuente de los inputs (aumentado a 18px) */
+}
+
+button[type="button"] {
+  width: 80%; /* ancho del botón (aumentado a 80%) */
+  height: 40px; /* alto del botón (aumentado a 40px) */
+  margin-top: 20px; /* espacio entre el botón y el formulario */
+  padding: 10px; /* espacio entre el texto y el borde */
+  border: none; /* sin borde */
+  border-radius: 5px; /* esquinas redondeadas */
+  background-color: #4CAF50; /* verde claro */
+  color: #fff; /* texto blanco */
+  cursor: pointer; /* cursor de mano */
+  font-size: 18px; /* tamaño de la fuente del botón (aumentado a 18px) */
+}
+
+button[type="button"]:hover {
+  background-color: #3e8e41; /* verde claro hover */
+}
+
+#resultado {
+  font-size: 25px; /* tamaño de la fuente del resultado */
+  font-weight: bold; /* texto en negrita */
+  margin-top: 20px; /* espacio entre el resultado y el formulario */
+}
